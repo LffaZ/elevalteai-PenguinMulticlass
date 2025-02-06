@@ -23,12 +23,12 @@ The dataset used in this project can be found on Kaggle at this [link](https://w
 ## Conclusion
 
 ### Project Key Insights:
-- **Species Classification**: The features used in the dataset (such as bill length, flipper length, and body mass) provide discriminative information to classify penguin species.
-- **OVR Approach**: The One-vs-Rest (OVR) method using both Logistic Regression and Multinomial Naive Bayes gives good results, but performance varies depending on the model.
-- **Model Evaluation**: By evaluating each model's performance, you can see the differences in accuracy and how each model generalizes to unseen data.
+- **Species Distribution**: The dataset consists of three species with Adelie being the most represented and Chinstrap the least, which could lead to class imbalance affecting model performance.
+- **Species Distribution per Island**: Every island has **Adelie** species, but in **Torgersen Island**, only **Adelie** is present. **Biscoe Island** has no **Chinstrap** species, and **Dream Island** has no **Gentoo** species, highlighting island-specific species distribution.
+- **Data Quality**: No outliers were detected in the data and it follows a normal distribution, suitable for analysis.
 
 ### Best Model:
-- The top-performing models in this evaluation are OVR Logistic Regression and Multinomial Naive Bayes, both achieving perfect results across all metrics.
+- Based on accuracy and overall performance, the best model is One-vs-Rest Logistic Regression. It achieved the highest accuracy of 0.99 and maintained balanced performance across all classes.
 
 If you have any suggestions or improvements for this repository, feel free to reach out to me:
 
